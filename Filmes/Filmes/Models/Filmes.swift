@@ -7,10 +7,21 @@
 //
 
 import UIKit
-
+// MARK: - Atributos
 class Filmes: NSObject {
     let titulo: String
     let capa: String
     let rating: String
     let sinopse: String
+    
+    // MARK: - Init
+    
+    init(titulo: String, capa: String, rating: String, sinopse: String) {
+        self.titulo = titulo
+        self.capa = capa
+        self.rating = rating
+        self.sinopse = sinopse
+    }
+
 }
+
