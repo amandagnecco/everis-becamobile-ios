@@ -1,5 +1,5 @@
 //
-//  FilmesGrid.swift
+//  Filmes.swift
 //  Filmes
 //
 //  Created by Amanda Gnecco on 31/03/21.
@@ -8,5 +8,9 @@
 
 import UIKit
 
-
-class GridTableViewController: UITableViewController
+class Filmes: NSObject {
+    let titulo: String
+    let capa: String
+    let rating: String
+    let sinopse: String
+}
