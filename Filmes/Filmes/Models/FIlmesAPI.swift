@@ -13,7 +13,7 @@ class FilmesAPI: NSObject{
     // MARK: - Get
     
     func consultaFilmes() {
-        Alamofire.request("https://api.themoviedb.org/3/trending/all/week?api_key=84ba1e87965a0ac8b12f86fad5b79371&language=pt-BR", method: .get).responseJSON{ (response) in
+        Alamofire.request("https://api.themoviedb.org/3/trending/movie/week?api_key=84ba1e87965a0ac8b12f86fad5b79371&language=pt-BR", method: .get).responseJSON{ (response) in
             switch response.result {
             case.success:
                 print(response.result.value!)

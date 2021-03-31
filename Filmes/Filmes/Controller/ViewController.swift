@@ -12,9 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBOutlet weak var capaDoFilme: UIImageView!
+    @IBOutlet weak var tituloDoFilme: UILabel!
+    @IBOutlet var avaliacaoDoFilme: UIView!
+    @IBOutlet weak var sinopseDoFilme: UILabel!
+    
 }
 
